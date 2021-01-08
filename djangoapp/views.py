@@ -10,3 +10,9 @@ def about (request):
 
 def page (request):
     return render(request,'abc.html')
+
+def customer (request):
+    return render(request,'Customer_Registration.html')
+
+def firstproject (request):
+    return render(request,'firstproject.html')

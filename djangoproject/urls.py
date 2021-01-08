@@ -20,4 +20,3 @@ urlpatterns = [
     path('admin1/', admin.site.urls),
     path('',include('djangoapp.urls'))
 ]
-
